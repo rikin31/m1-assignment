@@ -1,0 +1,382 @@
+header{
+    width: 100%;
+    min-height: 400px;
+    padding-top: 3em;
+}
+
+#home header {
+    background:  no-repeat lightgray url(images/image1.png);
+    background-size: 1500px;
+}
+#activities header {
+    background: no-repeat lightgray url(images/image1.jpg);
+    background-size: 1500px;
+}
+#contact header {
+    background: no-repeat lightgray url(images/quote.jpg);
+    background-size: 1500px;
+}
+.main-header {
+    background-color: rgb(255, 255, 255, 0.8);
+    width: 570px;
+    margin: 2em auto 0 auto;
+    min-height: 100px;
+    height: 100px;
+    
+}
+.main-header .logo img {
+    width: 100px;
+    height: 100px;
+    margin:  0 0 0 0;
+    float: left;
+}
+
+.main-menu {
+    margin-left: 25px;
+    font-weight: 400;
+}
+.main-menu ul li {
+    list-style-type: none;
+    float: left;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-left: 1px solid lightgray;
+    line-height: 100px;
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+.main-menu ul li a {
+    text-decoration: none;
+    color: #888888;
+    
+}
+.main-menu ul li a:hover {
+    color: #4f96cf;
+}
+.main-menu ul li.active {
+    background: #b8bbb1;
+    border: none;
+}
+.main-menu ul li.active a {
+    color: #ffffff;
+}
+h2 {
+    color: #4f96cf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section {
+    width: 100%;
+    background-color: #4f96cf;
+}
+section #partners {
+    width:  1200px;
+    padding: 2em 0 2em 0;
+    margin: 0 auto;
+    text-align: center;
+}
+section #partners .partner {
+    display: inline-block;
+    margin: 0 0.75em;
+    padding: 1.3em 1.5em;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+section #partners .partner img {
+    width: 90px;
+    height: 90px;
+}
+footer {
+    width: 100%;
+    height: 155px;
+    padding-bottom: 1em;
+    background-color: #ecfab8;
+}
+footer #nondisclaimer .copy {
+    padding: 3.5em 3.5em 3.5em 3.5em;
+    float: left;
+    font-size: 0.9em;
+}
+footer #nondisclaimer .social {
+    padding: 2.5em;
+    margin-right: 9.25em;
+    float: right;
+}
+footer #disclaimer {
+    clear: both;
+}
+footer #disclaimer p {
+    font-size: 0.85em;
+    text-align: center;
+}
+footer #nondisclaimer .social .fa {
+    padding: 15px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 4px;
+    border-radius: 50%;
+}
+footer #nondisclaimer .social .fa:hover {
+    opacity: 0.7;
+}
+footer #nondisclaimer .social .fa-facebook {
+    background: #3b5998;
+    color: white;
+} 
+footer #nondisclaimer .social .fa-twitter {
+    background: #55acee;
+    color: white;
+} 
+footer #nondisclaimer .social .fa-instagram {
+    background: #125688;
+    color: white;
+} 
+table {
+    width: 1000px;
+    margin: 4em auto 0 auto;
+}
+caption{
+    background: #bb4545;
+    height: 40px;
+    color: #ffffff;
+    font-size: 1.3em;
+    padding-top: 1em;
+}
+thead {
+    background: #bde1ff;
+}
+tbody {
+    background: #c3d3f0;
+    text-align: center;
+}
+th, td {
+    width: 225px;
+    height: 75px;
+    vertical-align: middle;
+    border: solid 1px #854a40;
+}
+th:first-child {
+    width: 125px;
+    height: 50px;
+    background: #4977d1;
+    color: #ffffff;
+}
+td:first-child {
+    font-weight: bold;
+    background: #bde1ff;
+}
+
+input {
+    width: 600px;
+    margin: 5px 0 0 0;
+}
+
+input[type="radio"] {
+    width: 25px;
+  
+}
+input[type="submit"] {
+    display: block;
+    margin: 20px 0 10px 500px;
+    width: 120px;
+    background: #4977d1;
+    color: #ffffff;
+    font-weight: bold;
+    height: 35px;
+    
+}
+
+
+textarea {
+    width: 600px;
+    height: 200px;
+    display: block;
+    margin: 0 0 0 20px;
+}
+
+footer {
+    height: 40px;
+    background-color: rgb(129, 141, 179);
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(211, 218, 240);
+}
+span:first-child {
+    font-weight: bold;
+
+}
+label {
+    font-weight: bold;
+    margin: 15px 0 0 20px;
+    
+    
+}
+h1 {
+  color: #4f96cf;  
+}
+legend {
+    color: #4f96cf;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+form fieldset {
+    border: solid 2px #829baf;
+}
+form .textbox input {
+    height: 25px;
+    margin: 0 0 15px 20px;
+    display: block;
+}
+form .selectmenu select {
+    width: 12em;
+    padding-left: 3em;
+    
+}
+main {
+    margin: 2em;
+}
+
+form .textbox,
+form .radio,
+form .selectmenu,
+form .commentbox,
+form .button {
+  margin: 1.5em 0 1.5em 2em;
+}
+
+.contactinfo {
+    margin: 2em 0 1em 0;
+    
+}
+  
+.contactinfo .phone {
+margin: 0 0 0.75em 0;
+}
+    
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 0 20px;
+    
+}
+main .gallery {
+    background: none;
+    width: 90%;
+    margin: 0 auto;
+    margin-right: 10px;
+}
+.column {
+    
+    float: left;
+  width: 510px;
+  text-align: center;
+  padding: 20px;
+  
+}
+
+.row:after {
+  content: "";
+  display: block;
+  clear: both;
+  
+}
+
+.content {
+  background-color: rgb(143, 29, 29);
+  padding-top: 1px;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 3em 1em 0 0;
+  
+}
+
+main {
+    display: inline-block;
+    width: 100%;
+    margin: 20px 0 10px 0;
+}
+
+main #album img {
+    width: 400px;
+    height: 400px;
+}
+
+main #album li {
+    float: left;
+    position: relative;
+}
+main #album .caption {
+    width: 400px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2.5em;
+}
+main #album .description {
+    width: 300px;
+    height: 40px;
+    visibility: hidden;
+    position: absolute;
+    bottom: 230px;
+    left: 70px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255, 0.8);
+}
+main #album li:hover {
+    cursor: pointer;
+
+}
+main #album li:hover .description {
+    visibility: visible;
+}
+
+main #gallery {
+    position: relative;
+}
+main #gallery #info_box {
+    position: absolute;
+    top: 200px;
+    left: 20%;
+    width: 30%;
+    min-height: 300px;
+    padding: 2em;
+    color: rgb(255, 255, 255, 1);
+    border-radius: 1em;
+    background-color: rgba(0, 0, 0, 0.9);
+    visibility: hidden;
+}
+main #gallery #info_title {
+    font-size: 2em;
+    font-weight: bolder;
+    margin-bottom: 1em;
+}
+main #gallery #closeInfo {
+    text-transform: capitalize;
+    width: 45%;
+    text-align: center;
+    margin: 5em auto 0 auto;
+    font-weight: bold;
+    color: rgb(250, 242, 132);
+}
+main #gallery #closeInfo:hover {
+    cursor: pointer;
+}
+
+div .dropdown-form {
+    margin-left: 32px;
+    margin-bottom: 15px;
+}
+div .dropdown-options {
+    margin-left: 52px;
+    margin-bottom: 15px;
+    
+}
+
+.show-hide {
+    font-weight: bold;
+}

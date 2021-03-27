@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Pro-Am</title>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <body id="home">
+        
+        <div id="container">
+            <header>
+                
+                <div class="main-header">
+
+                    <div class="logo">
+                        
+                        <img src="images/logo.png" alt="Pr-Am Logo" width="115">
+
+                    </div>
+                    <nav class="main-menu">
+                        <ul>
+                            <li class="active"><a href="index.html">Home</li>
+                            <li><a href="Services.html">Services</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            
+            </header>           
+            <main>
+                <h2>Pro-Am Insurance Agency Inc</h2>
+                
+                <h3>Our goal is to provide our clients to find the right coverage at the best price.</h3>
+                <p>We specialize in several Insurance coverages. However, we also provide very competitive quotes for many other classes of business backed by our excellent customer service.</p>
+                <p>We are an independently owned and operated agency serving a specialized market since our establishment over 25 years ago.</p>
+                
+                <ul id="gallery">
+
+                </ul>
+
+            </main>
+            <section>
+                <ul id="partners">
+                    <li class="partner"> 
+                        <img src="images/nationwide.png" alt="Nationwide"> 
+                    </li>    
+                    <li class="partner"> 
+                        <img src="images/ormutual.png" alt="Oregon Mutual">
+                    </li> 
+                    <li class="partner"> 
+                        <img src="images/liberrtymutual.webp" alt="Liberty Mutual">
+                    </li> 
+                    <li class="partner"> 
+                        <img src="images/BHHC.jpg" alt="BHHC">
+                    </li> 
+                    <li class="partner"> 
+                        <img src="images/travelers.jpg" alt="Travelers Ins">
+                    </li> 
+                    <li class="partner"> 
+                        <img src="images/mercury.png" alt="Travelers Group">
+                    </li> 
+                </ul>
+            </section>
+            <footer>
+                <div id="nondisclaimer"> 
+
+                    <div class="copy"> &copy;Copyright 2020 :: Kisproam.com </div>
+                    <div class="social">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                    </div> 
+                
+                </div>
+               
+            </footer>
+            
+            <script>
+
+            var Photo = []; 
+            var fileNames = [];
+            var imageList = [];
+            var openList = "<li id='photo1'>"
+            var closeList = "</li>"
+
+            for (var i=1; i<6; i++) {
+                // fileNames.push("photo1"); 
+                Photo.push("<img src='images/"+ fileNames[i]+".jpeg'>")
+                image = openList + Photo[i] + closeList;
+                // imageList.push(image);
+            }
+
+            document.getElementById("gallery").innerHTML = imageList; 
+
+            </script>
+
+        </div>
+    </body>
+</html>
